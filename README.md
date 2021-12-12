@@ -58,8 +58,8 @@ CSI Feedback with Model-Driven Deep Learning of Massive MIMO Systems
 ```
 
 ## Acknowledgment
-* [CsiNet](https://github.com/sydney222/Python_CsiNet#python-code-for-deep-learning-for-massive-mimo-csi-feedback)
-* [ISTA-Net](https://github.com/jianzhangcs/ISTA-Net)
+* [Deep learning for massive MIMO CSI feedback](https://github.com/sydney222/Python_CsiNet#python-code-for-deep-learning-for-massive-mimo-csi-feedback)
+* [ISTA-Net: Interpretable optimization-inspired deep network for image compressive sensing](https://github.com/jianzhangcs/ISTA-Net)
 
 
 
