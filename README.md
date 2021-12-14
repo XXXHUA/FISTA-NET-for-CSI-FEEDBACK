@@ -5,6 +5,8 @@ This is the Tensorflow implementation of the paper: Jianhua Guo, Lei Wang, Feng 
 In order to achieve reliable communication with a high data rate of massive multiple-input multiple-output (MIMO) systems in frequency division duplex (FDD) mode, the estimated
 channel state information (CSI) at the receiver needs to be fed back to the transmitter. However, the feedback overhead becomes exorbitant with the increasing number of antennas. In this paper, a two stages low rank (TSLR) CSI feedback scheme for millimeter wave (mmWave) massive MIMO systems is proposed to reduce the feedback overhead based on model-driven deep learning. Besides, we design a deep iterative neural network, named FISTA-Net, by unfolding the fast iterative shrinkage thresholding algorithm (FISTA) to achieve more efficient CSI feedback. Moreover, a shrinkage thresholding network (ST-Net) is designed in FISTA-Net based on the attention mechanism, which can choose the threshold adaptively. Simulation results show that the proposed TSLR CSI feedback scheme and FISTANet outperform the existing algorithms in various scenarios.
 
+![Alt](https://github.com/XXXHUA/FISTA-NET-for-CSI-FEEDBACK/blob/master/img/FISTA-Net.png)
+
 ## Requirements
 * Python 3.6
 * Tensorflow 1.15.0
