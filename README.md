@@ -1,6 +1,9 @@
 # FISTA-Net for CSI Feedback
 ## Introduction
- This is the Tensorflow implementation of the paper: Jianhua Guo, Lei Wang, Feng Li, and Jiang Xue, "**CSI Feedback with Model-Driven Deep Learning of Massive MIMO Systems**" .
+This is the Tensorflow implementation of the paper: Jianhua Guo, Lei Wang, Feng Li, and Jiang Xue, "**CSI Feedback with Model-Driven Deep Learning of Massive MIMO Systems**" .
+ 
+In order to achieve reliable communication with a high data rate of massive multiple-input multiple-output (MIMO) systems in frequency division duplex (FDD) mode, the estimated
+channel state information (CSI) at the receiver needs to be fed back to the transmitter. However, the feedback overhead becomes exorbitant with the increasing number of antennas. In this paper, a two stages low rank (TSLR) CSI feedback scheme for millimeter wave (mmWave) massive MIMO systems is proposed to reduce the feedback overhead based on model-driven deep learning. Besides, we design a deep iterative neural network, named FISTA-Net, by unfolding the fast iterative shrinkage thresholding algorithm (FISTA) to achieve more efficient CSI feedback. Moreover, a shrinkage thresholding network (ST-Net) is designed in FISTA-Net based on the attention mechanism, which can choose the threshold adaptively. Simulation results show that the proposed TSLR CSI feedback scheme and FISTANet outperform the existing algorithms in various scenarios.
 
 ## Requirements
 * Python 3.6
