@@ -54,7 +54,14 @@ The results and dataset with low-rank mmWave channel matrix by FISTA-Nets will b
 ## Citation
 If you find our paper and code are helpful for your research or work, please cite our paper.
 ```
-CSI Feedback with Model-Driven Deep Learning of Massive MIMO Systems
+@misc{guo2021csi,
+      title={CSI Feedback with Model-Driven Deep Learning of Massive MIMO Systems}, 
+      author={J. Guo and L. Wang and F. Li and J. Xue},
+      year={2021},
+      eprint={2112.06405},
+      archivePrefix={arXiv},
+      primaryClass={cs.IT}
+}
 ```
 
 ## Acknowledgment
